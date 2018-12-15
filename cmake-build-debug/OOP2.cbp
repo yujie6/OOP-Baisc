@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OOP2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yujie6/CLionProjects/OOP2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yujie6/CLionProjects/OOP2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oop2">
+				<Option output="/home/yujie6/CLionProjects/OOP2/cmake-build-debug/oop2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yujie6/CLionProjects/OOP2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oop2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oop2/fast">
+				<Option output="/home/yujie6/CLionProjects/OOP2/cmake-build-debug/oop2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yujie6/CLionProjects/OOP2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oop2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yujie6/CLionProjects/OOP2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yujie6/CLionProjects/OOP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/Basic.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/evalstate.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/evalstate.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/exp.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/exp.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/parser.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/parser.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/program.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/program.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/statement.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/Basic/statement.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/StanfordCPPLib/error.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/StanfordCPPLib/error.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/StanfordCPPLib/simpio.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/StanfordCPPLib/simpio.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/StanfordCPPLib/strlib.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/StanfordCPPLib/strlib.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/StanfordCPPLib/tokenscanner.cpp">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/StanfordCPPLib/tokenscanner.h">
+			<Option target="oop2"/>
+		</Unit>
+		<Unit filename="/home/yujie6/CLionProjects/OOP2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
