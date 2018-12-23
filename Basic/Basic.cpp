@@ -64,7 +64,7 @@ void processLine(string line, Program & program, EvalState & state) {
    Expression *firstorder = readE(scanner);
    if (firstorder->getType() == IDENTIFIER){
       tranverse(firstorder->toString());
-      switch (choice) {
+      switch (choice) {//deal with order that begin with PRINT/LET/INPUT or something like that                                                  
           case 1 : {
              Expression *exp = parseExp(scanner); int value;
              string variable = exp->toString();
@@ -123,7 +123,7 @@ void processLine(string line, Program & program, EvalState & state) {
           case 5 : {error("SYNTAX ERROR"); }
       }
    }
-   else if (firstorder->getType() == CONSTANT){
+   else if (firstorder->getType() == CONSTANT){       //deal with statement that begin with a constant
       int lineNum = firstorder->eval(state);
 
       if (scanner.hasMoreTokens()) {
