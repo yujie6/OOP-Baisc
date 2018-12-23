@@ -79,12 +79,13 @@ void processLine(string line, Program & program, EvalState & state) {
           case 2 : {quit_or_not = true; break; }
           case 3 : { program.list(); break; }
           case 4 : {program.clear(); state.clear(); break; }
+          case 8 : { program.Run(state); break; }
+          case 5 : {error("SYNTAX ERROR"); }
           case 6 : {
              CompoundExp *Givevalue = (CompoundExp *)readE(scanner);
              if (Givevalue->getLHS()->toString() == "LET") error("SYNTAX ERROR");
              state.setValue( Givevalue->getLHS()->toString() ,Givevalue->getRHS()->eval(state));
-             break;
-          }
+             break; }
           case 7 : {
               string variable = scanner.nextToken();
               while(true) {
@@ -108,19 +109,14 @@ void processLine(string line, Program & program, EvalState & state) {
                           }
                       }
                       if (ValidNumber){
-                      scanner.setInput(value);
-                      auto exp = readE(scanner);
-                      state.setValue(variable, exp->eval(state));
-                      break;          }
+                          scanner.setInput(value);
+                          auto exp = readE(scanner);
+                          state.setValue(variable, exp->eval(state));
+                          break;          }
                   }
               }
-             break;
-          }
-          case 8 : {
-              program.Run(state);
               break;
           }
-          case 5 : {error("SYNTAX ERROR"); }
       }
    }
    else if (firstorder->getType() == CONSTANT){       //deal with statement that begin with a constant

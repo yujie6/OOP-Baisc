@@ -76,7 +76,6 @@ void Program::Run(EvalState& state) {
                 reRun = true;
                 break;
             }
-            //i->second->execute(state);
             continue;
         }
         else if (i->second->GetStatementType() == IF){
@@ -84,9 +83,7 @@ void Program::Run(EvalState& state) {
             if (TheIF->OKornot()) {
                 i = ParsedStatements.find(TheIF->GETdes(state));
                 if (i == ParsedStatements.end()) error("LINE NUMBER ERROR");
-                i = --i;
-                //i->second->execute(state);
-                continue;
+                i = --i; continue;
             }
         }
     }
